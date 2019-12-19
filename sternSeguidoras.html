@@ -1,0 +1,913 @@
+<!doctype html>
+<html>
+<head>
+<title>Gertrud Arndt (gertrud_arndt)</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	
+	
+	
+<style>
+  
+  body {
+	 font: 20px "Roboto", sans-serif;
+	 line-height:1.8;	  
+  }
+  h1 {
+	font-size:18px;
+	color:#000000;  
+  }
+  h2 {
+	 font-size: 14px;
+	font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+	h3 {
+		color: #262626;
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+    max-width: 64px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    text-overflow: ellipsis;
+    top: 68px;
+    white-space: nowrap;
+	}
+	h4 {
+		font-size: 24px;
+    line-height: 32px;
+    margin: -5px 0 -6px;
+		font-weight: 300;
+	}
+#more {
+	display: none;
+}
+ .navbar {
+  padding-right: 5px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  background-color:#FFF;
+  letter-spacing: 0px;
+}
+
+ .navbar-nav li a {
+  color:black!important;
+}
+header {
+  background: #FFF;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  transition: top 0.2s ease-in-out;
+  width: 100%;
+  text-align: center;
+  z-index:2;
+}
+.nav-up {
+  top: -50px;
+}
+.navbar-brand {
+	color:#FFF !important;
+	}
+.navbar-brand:hover {
+	color:#FFF !important;
+	}
+	.nav navbar-nav navbar-right {
+		margin-right: auto;
+	}
+	.btn-default {
+	background-color: transparent;
+	border: 1px solid rgba(var(--d0b,219,219,219),1);
+	border-radius: 4px;
+	box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    padding: 5px 9px;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+	font-size: 14px;
+    line-height: 18px;
+	
+	}
+	.btn-default:hover {
+	background-color: white;
+	border: 1px solid rgba(var(--d0b,219,219,219),1);
+	border-radius: 4px;
+	box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    padding: 5px 9px;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+	font-size: 14px;
+    line-height: 18px;
+	}
+	.btn-primary {
+		border-radius: 4px;
+    color: #3897f0;
+				background-color: #3897f0;
+    position: relative;
+		    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    padding: 5px 9px;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+	}
+	.btn-primary:hover {
+border-radius: 4px;
+    color: #3897f0;
+		background-color: #3897f0;
+    position: relative;
+		    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    padding: 5px 9px;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+	}
+div.movil {
+  opacity: 1;
+}
+
+@media screen and (min-width: 992px) {
+  div.movil {
+    display: none;
+  }
+}
+	
+	div.menuPequeno {
+  opacity: 1
+	  z-index:9999;
+	}
+
+@media screen and (min-width: 768px) {
+  div.menuPequeno {
+    display: none;
+  }
+}
+	div.iphone {
+  opacity: 0
+	  z-index:9999;
+	}
+
+@media screen and (max-width: 375px) {
+  div.iphone {
+    display: none;
+  }
+}
+	div.desktop {
+  opacity: 1
+	  z-index:9999;
+	}
+
+@media screen and (max-width: 1200px) {
+  div.desktop {
+    display: none;
+  }
+}
+
+		div.cabeceraMovil {
+  opacity: 0
+	  z-index:9999;
+	}
+
+@media screen and (min-width: 1200px) {
+  div.cabeceraMovil {
+    display: none;
+  }
+}
+	div.sticky {
+	
+  position: fixed;
+  top: 0;
+	}
+  </style>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+<body>
+	<!-- INICIO CABECERO -->
+	<header class="nav-down">
+		<div class="container">
+<nav class="navbarnavbar-default navbar-expand-sm">
+
+    <div class="navbar-header">
+      
+		<a class="navbar-brand" href="index.html"><img src="https://i.ibb.co/C0Rs5PV/bauhgram.png"></a>
+		<div class="menuPequeno">
+	<a href="explore.html" style="text-decoration: none; color: black;"><i class="far fa-compass" style="width: 55px; height: 55px; margin-top: 23px; margin-left: 263px;"></i></a>
+        <a href="#" style="text-decoration: none; color: black;"><i class="far fa-heart" style="width: 55px; height: 55px;"></i></a>
+        <a href="bauhauser.html" style="text-decoration: none; color: black;"><i class="far fa-user" style="width: 55px; height: 55px;"></i></a>
+	</div>
+    </div>
+<div class="collapse navbar-collapse" style="text-align: center" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="explore.html" style="text-decoration: none; background-color: white;"><i class="far fa-compass" style="width: 24px; height: 24px;"></i></a></li>
+        <li><a href="#" style="text-decoration: none; background-color: white;"><i class="far fa-heart" style="width: 24px; height: 24px;"></i></a></li>
+        <li><a href="bauhauser.html" style="text-decoration: none; background-color: white;"><i class="far fa-user" style="width: 24px; height: 24px;"></i></a></li>
+      </ul>
+    </div>
+  
+</nav>
+			</div>
+</header>
+<div class="container">
+<div class="row" style="margin-top: 120px;">
+	<div class="col-md-1">
+		
+	</div>
+	<div class="col-md-10">
+		<div class="desktop"><img class="card-img-top img-fluid" src="https://i.ibb.co/2M4YF68/stern-Perfil.png" style="margin-top: 3px; margin-left: 115px; margin-bottom: 5px; width: 140px; height: 140px;" frameborder="0" scrolling="no">
+		<h4 style="margin-top: -135px; margin-left: 340px;">_gretestern_</h4>
+		<button type="button" class="btn btn-default" style="margin-left: 515px;	margin-top: -30px;">Siguiendo</button>
+		<img class="card-img-top img-fluid" src="https://i.ibb.co/7WTxZNJ/setting.png" style="margin-top: -60px; margin-left: 610px; margin-bottom: 5px; width: 32px; height: 32px;" frameborder="0" scrolling="no">
+		<h2 style="margin-left: 340px; margin-top: -20px; font-weight: 900;"><b>9</b> <span style="font-weight: 100">publicaciones &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</span> <a href="#" data-toggle="modal" data-target="#seguidoras" style="text-decoration: none; color: black;"><b>6</b> <span style="font-weight: 100">seguidoras &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</span></a><a href="#" data-toggle="modal" data-target="#seguidas" style="text-decoration: none; color: black;"><b>5</b> <span style="font-weight: 100">seguidas</span></a></h2>
+		<h2 style="margin-left: 340px; margin-top: 20px; font-weight: 900;"><b>Grete Stern</b></h2>
+		<h2 style="margin-left: 340px; margin-top: -5px; font-weight: 100;">"La fotografía sólo puede representar el presente. Una vez fotografiados,<br> el sujeto se convierte en parte del pasado" (Berenice Abbott) <br>Antes aprendiz de <span style="color: #003569;"><a href="#" style="text-decoration: none; color:#003569;">@walterpeterhansofficial</a></span></h2>
+		<a href="https://annialbers.guggenheim-bilbao.eus/exposicion" target="_blank" style="text-decoration: none; color:#003569; font-weight: 600; display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-left: 340px; margin-top: -10px; font-size: 14px;">lasmujeresdelabauhaus.com</a>
+		<img class="card-im-top img-fluid" src="https://i.ibb.co/qrZsRX9/publicaciones.png" style="margin-left: 340px; margin-top: 40px; width: 115px; height: 28px;">
+			
+			        <!-- INICIO SEGUIDORAS -->
+
+				<div class="modal fade" id="seguidoras">
+    <div class="modal-dialog modal-lg" align="center">
+      <div class="modal-content" style="width: 354px; height: 310px;">      
+        <!-- Modal Cabecera -->
+        <div class="modal-header" style="height: 20px;">
+          <h2 style="font-size: 14px; margin-top: -8px;"><b>Seguidoras</b></h2>
+          <button type="button" class="close" data-dismiss="modal" style="font-size: 24px; color: #000; margin-top: -30px;">&times;</button>
+        </div>        
+        <!-- Modal Cuerpo -->
+        <div class="modal-body" style="color: white; background-color: white;">
+        <div class="row">
+        	
+        	<a href="gertrudArndt.html"><img class="card-img-top img-fluid" src="https://i.ibb.co/z7Z5n0n/arndt-Perfil.png" style="width: 30px; height: 30px; margin-left: -290px; margin-top: 15px;" frameborder="0" scrolling="no"></a>
+			<a href="gertrudArndt.html" style="text-decoration: none;"> <h2 style="margin-left: -165px; margin-top: -30px; color: black;">gertrud_arndt</h2>
+			<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -187px; margin-top: -9px;">Gertrud Arndt</h2></a>
+        	<button type="button" class="btn btn-default" style="margin-left: 240px; margin-top: -40px; width: 87px; height: 30px;"><span style="color: #000;">Siguiendo</span></button>
+        	
+        	<a href="weraMeyer.html"><img class="card-img-top img-fluid" src="https://i.ibb.co/6whhWPQ/meyer-Perfil.png" style="width: 30px; height: 30px; margin-left: -290px; margin-top: 15px;" frameborder="0" scrolling="no"></a>
+			<a href="weraMeyer.html" style="text-decoration: none;"> <h2 style="margin-left: -175px; margin-top: -30px; color: black;">wmwaldeck</h2>
+			<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -155px; margin-top: -9px;">Wera Meyer Waldeck</h2></a>
+        	<button type="button" class="btn btn-default" style="margin-left: 240px; margin-top: -40px; width: 87px; height: 30px;"><span style="color: #000;">Siguiendo</span></button>
+        	
+        	<a href="anniAlbers.html"><img class="card-img-top img-fluid" src="https://i.ibb.co/R3DgM7V/albers-Perfil.png" style="width: 30px; height: 30px; margin-left: -290px; margin-top: 15px;" frameborder="0" scrolling="no"></a>
+			<a href="anniAlbers.html" style="text-decoration: none;"> <h2 style="margin-left: -165px; margin-top: -30px; color: black;">annialbers_99</h2>
+			<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -196px; margin-top: -9px;">Anni Albers</h2></a>
+        	<button type="button" class="btn btn-default" style="margin-left: 240px; margin-top: -40px; width: 87px; height: 30px;"><span style="color: #000;">Siguiendo</span></button>
+        	
+        	<a href="ottiBerger.html"><img class="card-img-top img-fluid" src="https://i.ibb.co/4tYY5Lp/berger-Perfil.png" style="width: 30px; height: 30px; margin-left: -290px; margin-top: 15px;" frameborder="0" scrolling="no"></a>
+			<a href="ottiBerger.html" style="text-decoration: none;"> <h2 style="margin-left: -200px; margin-top: -30px; color: black;">otti_98</h2>
+			<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -195px; margin-top: -9px;">Otti Berger</h2></a>
+        	<button type="button" class="btn btn-default" style="margin-left: 240px; margin-top: -40px; width: 87px; height: 30px;"><span style="color: #000;">Siguiendo</span></button>
+        	
+        	<a href="annemarieMauck.html"><img class="card-img-top img-fluid" src="https://i.ibb.co/CnrtGh8/mauck-Perfil.png" style="width: 30px; height: 30px; margin-left: -290px; margin-top: 15px;" frameborder="0" scrolling="no"></a>
+			<a href="annemarieMauck.html" style="text-decoration: none;"> <h2 style="margin-left: -148px; margin-top: -30px; color: black;">annemarie_mw</h2>
+			<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -134px; margin-top: -9px;">Annemarie Mauck Wilke</h2></a>
+        	<button type="button" class="btn btn-default" style="margin-left: 240px; margin-top: -40px; width: 87px; height: 30px;"><span style="color: #000;">Siguiendo</span></button>
+        	
+        	 <a href="bauhauser.html"><img class="card-img-top img-fluid" src="https://i.ibb.co/7z8rXBC/bauhauser-Perfil.png" style="width: 30px; height: 30px; margin-left: -290px; margin-top: 15px;" frameborder="0" scrolling="no"></a>
+			<a href="bauhauser.html" style="text-decoration: none;"> <h2 style="margin-left: -150px; margin-top: -30px; color: black;">bauhauser_fan</h2>
+			<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -158px; margin-top: -9px;">Bauhauser Forever</h2></a>
+        	
+         
+        </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+  
+  			        <!-- FINAL SEGUIDORAS -->
+
+
+	        <!-- INICIO SEGUIDAS -->
+
+				<div class="modal fade" id="seguidas">
+    <div class="modal-dialog modal-lg" align="center">
+      <div class="modal-content" style="width: 354px; height: 280px;">      
+        <!-- Modal Cabecera -->
+        <div class="modal-header" style="height: 20px;">
+          <h2 style="font-size: 14px; margin-top: -8px;"><b>Seguidas</b></h2>
+          <button type="button" class="close" data-dismiss="modal" style="font-size: 24px; color: #000; margin-top: -30px;">&times;</button>
+        </div>        
+        <!-- Modal Cuerpo -->
+        <div class="modal-body" style="color: white; background-color: white;">
+        <div class="row">
+        	
+        	<a href="gertrudArndt.html"><img class="card-img-top img-fluid" src="https://i.ibb.co/z7Z5n0n/arndt-Perfil.png" style="width: 30px; height: 30px; margin-left: -290px; margin-top: 15px;" frameborder="0" scrolling="no"></a>
+			<a href="gertrudArndt.html" style="text-decoration: none;"> <h2 style="margin-left: -165px; margin-top: -30px; color: black;">gertrud_arndt</h2>
+			<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -187px; margin-top: -9px;">Gertrud Arndt</h2></a>
+        	<button type="button" class="btn btn-default" style="margin-left: 240px; margin-top: -40px; width: 87px; height: 30px;"><span style="color: #000;">Siguiendo</span></button>
+        	
+        	<a href="weraMeyer.html"><img class="card-img-top img-fluid" src="https://i.ibb.co/6whhWPQ/meyer-Perfil.png" style="width: 30px; height: 30px; margin-left: -290px; margin-top: 15px;" frameborder="0" scrolling="no"></a>
+			<a href="weraMeyer.html" style="text-decoration: none;"> <h2 style="margin-left: -175px; margin-top: -30px; color: black;">wmwaldeck</h2>
+			<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -155px; margin-top: -9px;">Wera Meyer Waldeck</h2></a>
+        	<button type="button" class="btn btn-default" style="margin-left: 240px; margin-top: -40px; width: 87px; height: 30px;"><span style="color: #000;">Siguiendo</span></button>
+        	
+        	<a href="anniAlbers.html"><img class="card-img-top img-fluid" src="https://i.ibb.co/R3DgM7V/albers-Perfil.png" style="width: 30px; height: 30px; margin-left: -290px; margin-top: 15px;" frameborder="0" scrolling="no"></a>
+			<a href="anniAlbers.html" style="text-decoration: none;"> <h2 style="margin-left: -165px; margin-top: -30px; color: black;">annialbers_99</h2>
+			<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -196px; margin-top: -9px;">Anni Albers</h2></a>
+        	<button type="button" class="btn btn-default" style="margin-left: 240px; margin-top: -40px; width: 87px; height: 30px;"><span style="color: #000;">Siguiendo</span></button>
+        	
+        	<a href="ottiBerger.html"><img class="card-img-top img-fluid" src="https://i.ibb.co/4tYY5Lp/berger-Perfil.png" style="width: 30px; height: 30px; margin-left: -290px; margin-top: 15px;" frameborder="0" scrolling="no"></a>
+			<a href="ottiBerger.html" style="text-decoration: none;"> <h2 style="margin-left: -200px; margin-top: -30px; color: black;">otti_98</h2>
+			<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -195px; margin-top: -9px;">Otti Berger</h2></a>
+        	<button type="button" class="btn btn-default" style="margin-left: 240px; margin-top: -40px; width: 87px; height: 30px;"><span style="color: #000;">Siguiendo</span></button>
+        	
+        	<a href="annemarieMauck.html"><img class="card-img-top img-fluid" src="https://i.ibb.co/CnrtGh8/mauck-Perfil.png" style="width: 30px; height: 30px; margin-left: -290px; margin-top: 15px;" frameborder="0" scrolling="no"></a>
+			<a href="annemarieMauck.html" style="text-decoration: none;"> <h2 style="margin-left: -148px; margin-top: -30px; color: black;">annemarie_mw</h2>
+			<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -134px; margin-top: -9px;">Annemarie Mauck Wilke</h2></a>
+        	<button type="button" class="btn btn-default" style="margin-left: 240px; margin-top: -40px; width: 87px; height: 30px;"><span style="color: #000;">Siguiendo</span></button>
+        	
+        	
+         
+        </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+  
+  			        <!-- FINAL SEGUIDORAS -->
+		
+		
+		 <!-- INICIO PUBLICACIÓN UNA -->
+		<div class="modal fade" id="publicacionUna" >
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content" style=" color: transparent; background-color: transparent; ">      
+        <!-- Modal Cabecera -->
+        <div class="modal-header" style=" color: transparent; background-color: transparent;">
+          <button type="button" class="close" data-dismiss="modal" style="font-size: 30px; color: #FFF;">&times;</button>
+        </div>        
+        <!-- Modal Cuerpo -->
+        <div class="modal-body" style="color: white; background-color: white;">
+        <div class="row">
+        <div class="col-md-8">
+        <img class="card-img-top" src="https://i.ibb.co/92p0LYk/sternUno.png" alt="Card image" style="width: 528px; height: 528px;">
+</div>
+        <div class="col-md-4">
+        	<div class="row">
+        		         <a href="greteStern.html" style="text-decoration: none;"><img class="card-img-top img-fluid" src="https://i.ibb.co/2M4YF68/stern-Perfil.png" style="margin-top: -25px; margin-left: -15px; width: 32px; height: 32px;" frameborder="0" scrolling="no"><h2 style="text-decoration: none; color: black; margin-top: -35px; margin-left: 30px;">_gretestern_ •</h2><h2 style="margin-left: 135px; margin-top: -24px; color:#000; font-size: 12px;">Siguiendo</h2></a>
+			
+
+        	</div>
+        	<div class="row" style="margin-top: 35px;">
+        		         <a href="greteStern.html" style="text-decoration: none; color: black;"><img class="card-img-top img-fluid" src="https://i.ibb.co/2M4YF68/stern-Perfil.png" style="margin-top: -25px; margin-left: -15px; width: 32px; height: 32px;" frameborder="0" scrolling="no"><h2 style="text-decoration: none; color: black; margin-top: -40px; margin-left: 30px;">_gretestern_</a><span style="font-weight: 200"> Yo.</span></h2>				<h2 style="font-size:14px; color:grey; font-weight: 200; margin-left: 30px; margin-top: 15px;">4475 sem</h2>
+        		         
+        		         
+
+			
+
+        	</div>
+        	<div class="row">
+        	         <img class="card-img-top" src="https://i.ibb.co/Xb7Zt8N/pie-Foto-Gusta.png" alt="Card image" style="width: 330px; height: 45px; margin-top: 250px; margin-left: -35px;">        	
+        	</div>
+        	<div class="row">
+        	 <h2 style="margin-left: -30px; margin-top:0px; color: black;">7 Me gusta</h2>
+        	<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -30px; margin-top: 10px;">14 DE OCTUBRE DE 1930</h2>
+        	<h2 style="font-size:14px; color:grey; font-weight: 100; margin-left: -30px; margin-top: 10px; margin-bottom: 20px;">Agregar un comentario...</h2>
+
+
+
+        	</div>
+        	
+        </div>
+         
+        </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+   <!-- FIN PUBLICACIÓN UNA -->
+   
+     
+     <!-- INICIO PUBLICACIÓN DOS -->
+		<div class="modal fade" id="publicacionDos" >
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content" style=" color: transparent; background-color: transparent; ">      
+        <!-- Modal Cabecera -->
+        <div class="modal-header" style=" color: transparent; background-color: transparent;">
+          <button type="button" class="close" data-dismiss="modal" style="font-size: 30px; color: #FFF;">&times;</button>
+        </div>        
+        <!-- Modal Cuerpo -->
+        <div class="modal-body" style="color: white; background-color: white;">
+        <div class="row">
+        <div class="col-md-8">
+        <img class="card-img-top" src="https://i.ibb.co/QpHgJ4m/sternDos.png" alt="Card image" style="width: 528px; height: 528px;">
+</div>
+        <div class="col-md-4">
+        	<div class="row">
+        		         <a href="greteStern.html" style="text-decoration: none;"><img class="card-img-top img-fluid" src="https://i.ibb.co/2M4YF68/stern-Perfil.png" style="margin-top: -25px; margin-left: -15px; width: 32px; height: 32px;" frameborder="0" scrolling="no"><h2 style="text-decoration: none; color: black; margin-top: -35px; margin-left: 30px;">_gretestern_ •</h2><h2 style="margin-left: 135px; margin-top: -24px; color:#000; font-size: 12px;">Siguiendo</h2></a>
+			
+
+        	</div>
+        	<div class="row" style="margin-top: 35px;">
+        		         <a href="greteStern.html" style="text-decoration: none; color: black;"><img class="card-img-top img-fluid" src="https://i.ibb.co/2M4YF68/stern-Perfil.png" style="margin-top: -25px; margin-left: -15px; width: 32px; height: 32px;" frameborder="0" scrolling="no"><h2 style="text-decoration: none; color: black; margin-top: -40px; margin-left: 30px;">_gretestern_</a><span style="font-weight: 200"> Y Ellen.<br><span style="color: #003569;">@ellen.r.photo</span></span></h2>				<h2 style="font-size:14px; color:grey; font-weight: 200; margin-left: 30px; margin-top: 15px;">4475 sem</h2>
+        		         <div style="margin-top: 10px;"><a href="#" style="text-decoration: none; color: black;"><img class="card-img-top img-fluid" src="https://i.ibb.co/dWJtpZj/ellen-Rosenberg.png" style="margin-top: -25px; margin-left: -15px; width: 32px; height: 32px;" frameborder="0" scrolling="no"><h2 style="text-decoration: none; color: black; margin-top: -35px; margin-left: 30px;">ellen.r.photo</a><span style="font-weight: 200"> Me encanta 💞</span></h2>				<h2 style="font-size:14px; color:grey; font-weight: 200; margin-left: 30px; margin-top: 15px;">4475 sem <span style="color:#999; font-size: 12px; font-weight: 900;"><b>&nbsp;&nbsp; &nbsp;&nbsp;Responder</b></span></h2></div>
+        		         
+
+			
+
+        	</div>
+        	<div class="row">
+        	         <img class="card-img-top" src="https://i.ibb.co/Xb7Zt8N/pie-Foto-Gusta.png" alt="Card image" style="width: 330px; height: 45px; margin-top: 250px; margin-left: -35px;">        	
+        	</div>
+        	<div class="row">
+        	 <h2 style="margin-left: -30px; margin-top:0px; color: black;">7 Me gusta</h2>
+        	<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -30px; margin-top: 10px;">14 DE OCTUBRE DE 1930</h2>
+        	<h2 style="font-size:14px; color:grey; font-weight: 100; margin-left: -30px; margin-top: 10px; margin-bottom: 20px;">Agregar un comentario...</h2>
+
+
+
+        	</div>
+        	
+        </div>
+         
+        </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+   <!-- FIN PUBLICACIÓN DOS -->
+     
+     
+     <!-- INICIO PUBLICACIÓN TRES -->
+		<div class="modal fade" id="publicacionTres" >
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content" style=" color: transparent; background-color: transparent; ">      
+        <!-- Modal Cabecera -->
+        <div class="modal-header" style=" color: transparent; background-color: transparent;">
+          <button type="button" class="close" data-dismiss="modal" style="font-size: 30px; color: #FFF;">&times;</button>
+        </div>        
+        <!-- Modal Cuerpo -->
+        <div class="modal-body" style="color: white; background-color: white;">
+        <div class="row">
+        <div class="col-md-8">
+        <img class="card-img-top" src="https://i.ibb.co/mNPDzZW/stern-Tres.png" alt="Card image" style="width: 528px; height: 528px;">
+</div>
+        <div class="col-md-4">
+        	<div class="row">
+        		        <a href="greteStern.html" style="text-decoration: none;"><img class="card-img-top img-fluid" src="https://i.ibb.co/2M4YF68/stern-Perfil.png" style="margin-top: -25px; margin-left: -15px; width: 32px; height: 32px;" frameborder="0" scrolling="no"><h2 style="text-decoration: none; color: black; margin-top: -35px; margin-left: 30px;">_gretestern_ •</h2><h2 style="margin-left: 135px; margin-top: -24px; color:#000; font-size: 12px;">Siguiendo</h2></a>
+			
+
+        	</div>
+        	<div class="row" style="margin-top: 35px;">
+        		         <a href="greteStern.html" style="text-decoration: none; color: black;"><img class="card-img-top img-fluid" src="https://i.ibb.co/2M4YF68/stern-Perfil.png" style="margin-top: -25px; margin-left: -15px; width: 32px; height: 32px;" frameborder="0" scrolling="no"><h2 style="text-decoration: none; color: black; margin-top: -40px; margin-left: 30px;">_gretestern_</a><span style="font-weight: 200"> Jorge Luis Borges.</span></h2>
+        		         <h2 style="font-size:14px; color:grey; font-weight: 200; margin-left: 30px; margin-top: 15px;">4790 sem</h2>
+
+			
+
+        	</div>
+        	<div class="row">
+        	         <img class="card-img-top" src="https://i.ibb.co/Xb7Zt8N/pie-Foto-Gusta.png" alt="Card image" style="width: 330px; height: 45px; margin-top: 250px; margin-left: -35px;">        	
+        	</div>
+        	<div class="row">
+        	 <h2 style="margin-left: -30px; margin-top:0px; color: black;">7 Me gusta</h2>
+        	<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -30px; margin-top: 10px;">30 DE ENERO DE 1929</h2>
+        	<h2 style="font-size:14px; color:grey; font-weight: 100; margin-left: -30px; margin-top: 10px; margin-bottom: 20px;">Agregar un comentario...</h2>
+
+
+
+        	</div>
+        	
+        </div>
+         
+        </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+   <!-- FIN PUBLICACIÓN TRES -->
+     
+     
+         <!-- INICIO PUBLICACIÓN CUATRO -->
+		<div class="modal fade" id="publicacionCuatro" >
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content" style=" color: transparent; background-color: transparent; ">      
+        <!-- Modal Cabecera -->
+        <div class="modal-header" style=" color: transparent; background-color: transparent;">
+          <button type="button" class="close" data-dismiss="modal" style="font-size: 30px; color: #FFF;">&times;</button>
+        </div>        
+        <!-- Modal Cuerpo -->
+        <div class="modal-body" style="color: white; background-color: white;">
+        <div class="row">
+        <div class="col-md-8">
+        <img class="card-img-top" src="https://i.ibb.co/ggqpGJY/stern-Cuatro.png" alt="Card image" style="width: 528px; height: 528px;">
+</div>
+        <div class="col-md-4">
+        	<div class="row">
+        		         <a href="greteStern.html" style="text-decoration: none;"><img class="card-img-top img-fluid" src="https://i.ibb.co/2M4YF68/stern-Perfil.png" style="margin-top: -25px; margin-left: -15px; width: 32px; height: 32px;" frameborder="0" scrolling="no"><h2 style="text-decoration: none; color: black; margin-top: -35px; margin-left: 30px;">_gretestern_ •</h2><h2 style="margin-left: 135px; margin-top: -24px; color:#000; font-size: 12px;">Siguiendo</h2></a>
+			
+
+        	</div>
+        	<div class="row" style="margin-top: 35px;">
+        		         <a href="greteStern.html" style="text-decoration: none; color: black;"><img class="card-img-top img-fluid" src="https://i.ibb.co/2M4YF68/stern-Perfil.png" style="margin-top: -25px; margin-left: -15px; width: 32px; height: 32px;" frameborder="0" scrolling="no"><h2 style="text-decoration: none; color: black; margin-top: -40px; margin-left: 30px;">_gretestern_</a><span style="font-weight: 200"> Marie Langer.</span></h2>				<h2 style="font-size:14px; color:grey; font-weight: 200; margin-left: 30px; margin-top: 15px;">5320 sem</h2>
+
+			
+
+        	</div>
+        	<div class="row">
+        	         <img class="card-img-top" src="https://i.ibb.co/Xb7Zt8N/pie-Foto-Gusta.png" alt="Card image" style="width: 330px; height: 45px; margin-top: 250px; margin-left: -35px;">        	
+        	</div>
+        	<div class="row">
+        	 <h2 style="margin-left: -30px; margin-top:0px; color: black;">7 Me gusta</h2>
+        	<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -30px; margin-top: 10px;">2 DE DICIEMBRE DE 1929</h2>
+        	<h2 style="font-size:14px; color:grey; font-weight: 100; margin-left: -30px; margin-top: 10px; margin-bottom: 20px;">Agregar un comentario...</h2>
+
+
+
+        	</div>
+        	
+        </div>
+         
+        </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+   <!-- FIN PUBLICACIÓN CUATRO -->
+    
+             <!-- INICIO PUBLICACIÓN CINCO -->
+		<div class="modal fade" id="publicacionCinco" >
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content" style=" color: transparent; background-color: transparent; ">      
+        <!-- Modal Cabecera -->
+        <div class="modal-header" style=" color: transparent; background-color: transparent;">
+          <button type="button" class="close" data-dismiss="modal" style="font-size: 30px; color: #FFF;">&times;</button>
+        </div>        
+        <!-- Modal Cuerpo -->
+        <div class="modal-body" style="color: white; background-color: white;">
+        <div class="row">
+        <div class="col-md-8">
+        <img class="card-img-top" src="https://i.ibb.co/8gh6ffz/stern-Cinco.png" alt="Card image" style="width: 528px; height: 528px;">
+</div>
+        <div class="col-md-4">
+        	<div class="row">
+        		         <a href="greteStern.html" style="text-decoration: none;"><img class="card-img-top img-fluid" src="https://i.ibb.co/2M4YF68/stern-Perfil.png" style="margin-top: -25px; margin-left: -15px; width: 32px; height: 32px;" frameborder="0" scrolling="no"><h2 style="text-decoration: none; color: black; margin-top: -35px; margin-left: 30px;">_gretestern_ •</h2><h2 style="margin-left: 135px; margin-top: -24px; color:#000; font-size: 12px;">Siguiendo</h2></a>
+			
+
+        	</div>
+        	<div class="row" style="margin-top: 35px;">
+        		         <a href="greteStern.html" style="text-decoration: none; color: black;"><img class="card-img-top img-fluid" src="https://i.ibb.co/2M4YF68/stern-Perfil.png" style="margin-top: -25px; margin-left: -15px; width: 32px; height: 32px;" frameborder="0" scrolling="no"><h2 style="text-decoration: none; color: black; margin-top: -40px; margin-left: 30px;">_gretestern_</a><span style="font-weight: 200"> Gertrudis Chale.</span></h2>				<h2 style="font-size:14px; color:grey; font-weight: 200; margin-left: 30px; margin-top: 15px;">5325 sem</h2>
+        		        
+
+			
+
+        	</div>
+        	<div class="row">
+        	         <img class="card-img-top" src="https://i.ibb.co/Xb7Zt8N/pie-Foto-Gusta.png" alt="Card image" style="width: 330px; height: 45px; margin-top: 250px; margin-left: -35px;">        	
+        	</div>
+        	<div class="row">
+        	 <h2 style="margin-left: -30px; margin-top:0px; color: black;">7 Me gusta</h2>
+        	<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -30px; margin-top: 10px;">28 DE OCTUBRE DE 1929</h2>
+        	<h2 style="font-size:14px; color:grey; font-weight: 100; margin-left: -30px; margin-top: 10px; margin-bottom: 20px;">Agregar un comentario...</h2>
+
+
+
+        	</div>
+        	
+        </div>
+         
+        </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+   <!-- FIN PUBLICACIÓN CINCO -->
+   
+               <!-- INICIO PUBLICACIÓN SEIS -->
+		<div class="modal fade" id="publicacionSeis" >
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content" style=" color: transparent; background-color: transparent; ">      
+        <!-- Modal Cabecera -->
+        <div class="modal-header" style=" color: transparent; background-color: transparent;">
+          <button type="button" class="close" data-dismiss="modal" style="font-size: 30px; color: #FFF;">&times;</button>
+        </div>        
+        <!-- Modal Cuerpo -->
+        <div class="modal-body" style="color: white; background-color: white;">
+        <div class="row">
+        <div class="col-md-8">
+        <img class="card-img-top" src="https://i.ibb.co/bWv0wbx/stern-Seis.png" alt="Card image" style="width: 528px; height: 528px;">
+</div>
+        <div class="col-md-4">
+        	<div class="row">
+        		         <a href="greteStern.html" style="text-decoration: none;"><img class="card-img-top img-fluid" src="https://i.ibb.co/2M4YF68/stern-Perfil.png" style="margin-top: -25px; margin-left: -15px; width: 32px; height: 32px;" frameborder="0" scrolling="no"><h2 style="text-decoration: none; color: black; margin-top: -35px; margin-left: 30px;">_gretestern_ •</h2><h2 style="margin-left: 135px; margin-top: -24px; color:#000; font-size: 12px;">Siguiendo</h2></a>
+			
+
+        	</div>
+        	<div class="row" style="margin-top: 35px;">
+        		         <a href="greteStern.html" style="text-decoration: none; color: black;"><img class="card-img-top img-fluid" src="https://i.ibb.co/2M4YF68/stern-Perfil.png" style="margin-top: -25px; margin-left: -15px; width: 32px; height: 32px;" frameborder="0" scrolling="no"><h2 style="text-decoration: none; color: black; margin-top: -40px; margin-left: 30px;">_gretestern_</a><span style="font-weight: 200"> Buenos Aires 2</span></h2>				<h2 style="font-size:14px; color:grey; font-weight: 200; margin-left: 30px; margin-top: 15px;">5414 sem</h2>
+        		        
+
+			
+
+        	</div>
+        	<div class="row">
+        	         <img class="card-img-top" src="https://i.ibb.co/Xb7Zt8N/pie-Foto-Gusta.png" alt="Card image" style="width: 330px; height: 45px; margin-top: 250px; margin-left: -35px;">        	
+        	</div>
+        	<div class="row">
+        	 <h2 style="margin-left: -30px; margin-top:0px; color: black;">7 Me gusta</h2>
+        	<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -30px; margin-top: 10px;">28 DE JULIO DE 1930</h2>
+        	<h2 style="font-size:14px; color:grey; font-weight: 100; margin-left: -30px; margin-top: 10px; margin-bottom: 20px;">Agregar un comentario...</h2>
+
+
+
+        	</div>
+        	
+        </div>
+         
+        </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+   <!-- FIN PUBLICACIÓN SEIS -->
+    
+                 <!-- INICIO PUBLICACIÓN SIETE -->
+		<div class="modal fade" id="publicacionSiete" >
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content" style=" color: transparent; background-color: transparent; ">      
+        <!-- Modal Cabecera -->
+        <div class="modal-header" style=" color: transparent; background-color: transparent;">
+          <button type="button" class="close" data-dismiss="modal" style="font-size: 30px; color: #FFF;">&times;</button>
+        </div>        
+        <!-- Modal Cuerpo -->
+        <div class="modal-body" style="color: white; background-color: white;">
+        <div class="row">
+        <div class="col-md-8">
+        <img class="card-img-top" src="https://i.ibb.co/j3n4sfz/stern-Siete.png" alt="Card image" style="width: 528px; height: 528px;">
+</div>
+        <div class="col-md-4">
+        	<div class="row">
+        		         <a href="greteStern.html" style="text-decoration: none;"><img class="card-img-top img-fluid" src="https://i.ibb.co/2M4YF68/stern-Perfil.png" style="margin-top: -25px; margin-left: -15px; width: 32px; height: 32px;" frameborder="0" scrolling="no"><h2 style="text-decoration: none; color: black; margin-top: -35px; margin-left: 30px;">_gretestern_ •</h2><h2 style="margin-left: 135px; margin-top: -24px; color:#000; font-size: 12px;">Siguiendo</h2></a>
+			
+
+        	</div>
+        	<div class="row" style="margin-top: 35px;">
+        		         <a href="greteStern.html" style="text-decoration: none; color: black;"><img class="card-img-top img-fluid" src="https://i.ibb.co/2M4YF68/stern-Perfil.png" style="margin-top: -25px; margin-left: -15px; width: 32px; height: 32px;" frameborder="0" scrolling="no"><h2 style="text-decoration: none; color: black; margin-top: -40px; margin-left: 30px;">_gretestern_</a><span style="font-weight: 200"> Buenos Aires 1</span></h2>				<h2 style="font-size:14px; color:grey; font-weight: 200; margin-left: 30px; margin-top: 15px;">5414 sem</h2>
+        		        
+
+			
+
+        	</div>
+        	<div class="row">
+        	         <img class="card-img-top" src="https://i.ibb.co/Xb7Zt8N/pie-Foto-Gusta.png" alt="Card image" style="width: 330px; height: 45px; margin-top: 250px; margin-left: -35px;">        	
+        	</div>
+        	<div class="row">
+        	 <h2 style="margin-left: -30px; margin-top:0px; color: black;">7 Me gusta</h2>
+        	<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -30px; margin-top: 10px;">28 DE JULIO DE 1930</h2>
+        	<h2 style="font-size:14px; color:grey; font-weight: 100; margin-left: -30px; margin-top: 10px; margin-bottom: 20px;">Agregar un comentario...</h2>
+
+
+
+        	</div>
+        	
+        </div>
+         
+        </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+   <!-- FIN PUBLICACIÓN SIETE -->
+     
+                  <!-- INICIO PUBLICACIÓN OCHO -->
+		<div class="modal fade" id="publicacionOcho" >
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content" style=" color: transparent; background-color: transparent; ">      
+        <!-- Modal Cabecera -->
+        <div class="modal-header" style=" color: transparent; background-color: transparent;">
+          <button type="button" class="close" data-dismiss="modal" style="font-size: 30px; color: #FFF;">&times;</button>
+        </div>        
+        <!-- Modal Cuerpo -->
+        <div class="modal-body" style="color: white; background-color: white;">
+        <div class="row">
+        <div class="col-md-8">
+        <img class="card-img-top" src="https://i.ibb.co/pbqqzq9/stern-Ocho.png" alt="Card image" style="width: 528px; height: 528px;">
+</div>
+        <div class="col-md-4">
+        	<div class="row">
+        		         <a href="greteStern.html" style="text-decoration: none;"><img class="card-img-top img-fluid" src="https://i.ibb.co/2M4YF68/stern-Perfil.png" style="margin-top: -25px; margin-left: -15px; width: 32px; height: 32px;" frameborder="0" scrolling="no"><h2 style="text-decoration: none; color: black; margin-top: -35px; margin-left: 30px;">_gretestern_ •</h2><h2 style="margin-left: 135px; margin-top: -24px; color:#000; font-size: 12px;">Siguiendo</h2></a>
+			
+
+        	</div>
+        	<div class="row" style="margin-top: 35px;">
+        		         <a href="greteStern.html" style="text-decoration: none; color: black;"><img class="card-img-top img-fluid" src="https://i.ibb.co/2M4YF68/stern-Perfil.png" style="margin-top: -25px; margin-left: -15px; width: 32px; height: 32px;" frameborder="0" scrolling="no"><h2 style="text-decoration: none; color: black; margin-top: -40px; margin-left: 30px;">_gretestern_</a><span style="font-weight: 200"> Gran Chaco 2</span></h2>				<h2 style="font-size:14px; color:grey; font-weight: 200; margin-left: 30px; margin-top: 15px;">5734 sem</h2>
+        		        
+
+			
+
+        	</div>
+        	<div class="row">
+        	         <img class="card-img-top" src="https://i.ibb.co/Xb7Zt8N/pie-Foto-Gusta.png" alt="Card image" style="width: 330px; height: 45px; margin-top: 250px; margin-left: -35px;">        	
+        	</div>
+        	<div class="row">
+        	 <h2 style="margin-left: -30px; margin-top:0px; color: black;">7 Me gusta</h2>
+        	<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -30px; margin-top: 10px;">13 DE MAYO DE 1930</h2>
+        	<h2 style="font-size:14px; color:grey; font-weight: 100; margin-left: -30px; margin-top: 10px; margin-bottom: 20px;">Agregar un comentario...</h2>
+
+
+
+        	</div>
+        	
+        </div>
+         
+        </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+   <!-- FIN PUBLICACIÓN OCHO -->
+     
+                  <!-- INICIO PUBLICACIÓN NUEVE -->
+		<div class="modal fade" id="publicacionNueve" >
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content" style=" color: transparent; background-color: transparent; ">      
+        <!-- Modal Cabecera -->
+        <div class="modal-header" style=" color: transparent; background-color: transparent;">
+          <button type="button" class="close" data-dismiss="modal" style="font-size: 30px; color: #FFF;">&times;</button>
+        </div>        
+        <!-- Modal Cuerpo -->
+        <div class="modal-body" style="color: white; background-color: white;">
+        <div class="row">
+        <div class="col-md-8">
+        <img class="card-img-top" src="https://i.ibb.co/L5M2QHs/stern-Nueve.png" alt="Card image" style="width: 528px; height: 528px;">
+</div>
+        <div class="col-md-4">
+        	<div class="row">
+        		         <a href="greteStern.html" style="text-decoration: none;"><img class="card-img-top img-fluid" src="https://i.ibb.co/2M4YF68/stern-Perfil.png" style="margin-top: -25px; margin-left: -15px; width: 32px; height: 32px;" frameborder="0" scrolling="no"><h2 style="text-decoration: none; color: black; margin-top: -35px; margin-left: 30px;">_gretestern_ •</h2><h2 style="margin-left: 135px; margin-top: -24px; color:#000; font-size: 12px;">Siguiendo</h2></a>
+			
+
+        	</div>
+        	<div class="row" style="margin-top: 35px;">
+        		         <a href="greteStern.html" style="text-decoration: none; color: black;"><img class="card-img-top img-fluid" src="https://i.ibb.co/2M4YF68/stern-Perfil.png" style="margin-top: -25px; margin-left: -15px; width: 32px; height: 32px;" frameborder="0" scrolling="no"><h2 style="text-decoration: none; color: black; margin-top: -40px; margin-left: 30px;">_gretestern_</a><span style="font-weight: 200"> Gran Chaco 1</span></h2>				<h2 style="font-size:14px; color:grey; font-weight: 200; margin-left: 30px; margin-top: 15px;">5734 sem</h2>
+        		        
+
+			
+
+        	</div>
+        	<div class="row">
+        	         <img class="card-img-top" src="https://i.ibb.co/Xb7Zt8N/pie-Foto-Gusta.png" alt="Card image" style="width: 330px; height: 45px; margin-top: 250px; margin-left: -35px;">        	
+        	</div>
+        	<div class="row">
+        	 <h2 style="margin-left: -30px; margin-top:0px; color: black;">7 Me gusta</h2>
+        	<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: -30px; margin-top: 10px;">13 DE MAYO DE 1930</h2>
+        	<h2 style="font-size:14px; color:grey; font-weight: 100; margin-left: -30px; margin-top: 10px; margin-bottom: 20px;">Agregar un comentario...</h2>
+
+
+
+        	</div>
+        	
+        </div>
+         
+        </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+   <!-- FIN PUBLICACIÓN NUEVE -->
+     
+      <!-- INICIO PRIMERA FILA -->
+
+		<div class="row" style="margin-top: 20px">
+				<a href="#" data-toggle="modal" data-target="#publicacionUna"><img class="card-img-top img-fluid" src="https://i.ibb.co/92p0LYk/sternUno.png" style="width: 265px; height: 265px; margin-left: 70px; margin-right: 28px;"></a>
+				<a href="#" data-toggle="modal" data-target="#publicacionDos"><img class="card-img-top img-fluid" src="https://i.ibb.co/QpHgJ4m/sternDos.png" style="width: 265px; height: 265px; margin-right: 28px;"></a>
+
+				<a href="#" data-toggle="modal" data-target="#publicacionTres"><img class="card-img-top img-fluid" src="https://i.ibb.co/mNPDzZW/stern-Tres.png" style="width: 265px; height: 265px;"></a>
+
+
+
+		</div>
+		
+		   <!-- FIN PRIMERA FILA -->
+
+		
+		      <!-- INICIO SEGUNDA FILA -->
+
+		<div class="row" style="margin-top: 20px">
+				<a href="#" data-toggle="modal" data-target="#publicacionCuatro"><img class="card-img-top img-fluid" src="https://i.ibb.co/ggqpGJY/stern-Cuatro.png" style="width: 265px; height: 265px; margin-left: 70px; margin-right: 28px;"></a>
+				<a href="#" data-toggle="modal" data-target="#publicacionCinco"><img class="card-img-top img-fluid" src="https://i.ibb.co/8gh6ffz/stern-Cinco.png" style="width: 265px; height: 265px; margin-right: 28px;"></a>
+				<a href="#" data-toggle="modal" data-target="#publicacionSeis"><img class="card-img-top img-fluid" src="https://i.ibb.co/bWv0wbx/stern-Seis.png" style="width: 265px; height: 265px; margin-right: 28px;"></a>
+
+		</div>
+		
+				   <!-- FIN SEGUNDA FILA -->
+				   
+				   <!-- INICIO TERCERA FILA -->
+
+		<div class="row" style="margin-top: 20px">
+				<a href="#" data-toggle="modal" data-target="#publicacionSiete"><img class="card-img-top img-fluid" src="https://i.ibb.co/j3n4sfz/stern-Siete.png" style="width: 265px; height: 265px; margin-left: 70px; margin-right: 28px;"></a>
+				<a href="#" data-toggle="modal" data-target="#publicacionOcho"><img class="card-img-top img-fluid" src="https://i.ibb.co/pbqqzq9/stern-Ocho.png" style="width: 265px; height: 265px; margin-right: 28px;"></a>
+				<a href="#" data-toggle="modal" data-target="#publicacionNueve"><img class="card-img-top img-fluid" src="https://i.ibb.co/L5M2QHs/stern-Nueve.png" style="width: 265px; height: 265px; margin-right: 28px;"></a>
+
+		</div>
+		
+				   <!-- FIN TERCERA FILA -->
+
+
+
+		<footer>
+<h2 style="color:#003569; text-align: center; font-size: 12px; margin-top: 50px; margin-bottom: 30px;">&nbsp;&nbsp; &nbsp;&nbsp;INFORMACIÓN &nbsp;&nbsp; AYUDA &nbsp;&nbsp; PRENSA &nbsp;&nbsp; API &nbsp;&nbsp; EMPLEO &nbsp;&nbsp; PRIVACIDAD &nbsp;&nbsp; CONDICIONES &nbsp;&nbsp; DIRECTORIO &nbsp;&nbsp; PERFILES &nbsp;&nbsp; HASHTAGS &nbsp;&nbsp; IDIOMA &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; <span style="color:#999;">© 2019 BAUHGRAM</span></h2>
+                </footer>
+		</div>
+		
+				   <!-- FIN DESKTOP -->
+
+				   <!-- INICIO MOVIL -->
+
+		
+		<div class="cabeceraMovil">
+		
+		<div class="row" style="margin-top: -80px;">
+	          <div class="col-xs-12">
+	          <div class="row"><h2 style="font-size: 14px; text-align: center"><b>Seguidoras</b></h2></div>
+		          
+             
+        <div class="row">
+        	
+        	<a href="anniAlbers.html"><img class="card-img-top img-fluid" src="https://i.ibb.co/R3DgM7V/albers-Perfil.png" style="width: 30px; height: 30px; margin-left: 30px; margin-top: 15px;" frameborder="0" scrolling="no"></a>
+			<a href="anniAlbers.html" style="text-decoration: none;"> <h2 style="margin-left: 70px; margin-top: -30px; color: black;">annialbers_99</h2>
+			<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: 70px; margin-top: -9px;">Anni Albers</h2></a>
+        	<button type="button" class="btn btn-default" style="margin-left: 540px; margin-top: -40px; width: 87px; height: 30px;"><span style="color: #000;">Siguiendo</span></button>
+        	
+        	<a href="weraMeyer.html"><img class="card-img-top img-fluid" src="https://i.ibb.co/6whhWPQ/meyer-Perfil.png" style="width: 30px; height: 30px; margin-left: 30px; margin-top: 15px;" frameborder="0" scrolling="no"></a>
+			<a href="weraMeyer.html" style="text-decoration: none;"> <h2 style="margin-left: 70px; margin-top: -30px; color: black;">wmwaldeck</h2>
+			<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: 70px; margin-top: -9px;">Wera Meyer Waldeck</h2></a>
+        	<button type="button" class="btn btn-default" style="margin-left: 540px; margin-top: -40px; width: 87px; height: 30px;"><span style="color: #000;">Siguiendo</span></button>
+        	
+        	<a href="gertrudArndt.html"><img class="card-img-top img-fluid" src="https://i.ibb.co/z7Z5n0n/arndt-Perfil.png" style="width: 30px; height: 30px; margin-left: 30px; margin-top: 15px;" frameborder="0" scrolling="no"></a>
+			<a href="gertrudArndt.html" style="text-decoration: none;"> <h2 style="margin-left: 70px; margin-top: -30px; color: black;">gertrud_arndt</h2>
+			<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: 70px; margin-top: -9px;">Gertrud Arndt</h2></a>
+        	<button type="button" class="btn btn-default" style="margin-left: 540px; margin-top: -40px; width: 87px; height: 30px;"><span style="color: #000;">Siguiendo</span></button>
+        	
+        	<a href="ottiBerger.html"><img class="card-img-top img-fluid" src="https://i.ibb.co/4tYY5Lp/berger-Perfil.png" style="width: 30px; height: 30px; margin-left: 30px; margin-top: 15px;" frameborder="0" scrolling="no"></a>
+			<a href="ottiBerger.html" style="text-decoration: none;"> <h2 style="margin-left: 70px; margin-top: -30px; color: black;">otti_98</h2>
+			<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: 70px; margin-top: -9px;">Otti Berger</h2></a>
+        	<button type="button" class="btn btn-default" style="margin-left: 540px; margin-top: -40px; width: 87px; height: 30px;"><span style="color: #000;">Siguiendo</span></button>
+        	
+        	<a href="annemarieMauck.html"><img class="card-img-top img-fluid" src="https://i.ibb.co/CnrtGh8/mauck-Perfil.png" style="width: 30px; height: 30px; margin-left: 30px; margin-top: 15px;" frameborder="0" scrolling="no"></a>
+			<a href="annemarieMauck.html" style="text-decoration: none;"> <h2 style="margin-left: 70px; margin-top: -30px; color: black;">annemarie_mw</h2>
+			<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: 70px; margin-top: -9px;">Annemarie Mauck Wilke</h2></a>
+        	<button type="button" class="btn btn-default" style="margin-left: 540px; margin-top: -40px; width: 87px; height: 30px;"><span style="color: #000;">Siguiendo</span></button>
+        	
+        	 <a href="bauhauser.html"><img class="card-img-top img-fluid" src="https://i.ibb.co/7z8rXBC/bauhauser-Perfil.png" style="width: 30px; height: 30px; margin-left: 30px; margin-top: 15px;" frameborder="0" scrolling="no"></a>
+			<a href="bauhauser.html" style="text-decoration: none;"> <h2 style="margin-left: 70px; margin-top: -30px; color: black;">bauhauser_fan</h2>
+			<h2 style="font-size:10px; color:grey; font-weight: 100; margin-left: 70px; margin-top: -9px;">Bauhauser Forever</h2></a>
+        	
+         
+        </div>
+			</div>
+		</div>
+		</div>
+			   <!-- FIN MOVIL -->
+
+	</div>
+	
+<div class="col-md-1">
+	
+</div>
+</div>
+	
+	
+	
+	
+	<div class="row">
+	<div class="col-md-1">
+	
+	</div>
+	<div class="col-md-10">
+	
+	</div>
+	<div class="col-md-1">
+		
+	</div>
+</div>
+	</div>
+	
+               
+
+	
+	
+	
+	
+<script async src="https://imgbb.com/upload.js"></script>
+ 
+</body>
+</html>
